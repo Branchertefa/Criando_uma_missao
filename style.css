@@ -4,7 +4,6 @@
     --cor-secundaria: #212333;
     --cor-destaque: #2BDEFD;
     --cor-texto: #D7f9ff;
-
 }
 
 body {
@@ -21,4 +20,9 @@ body {
     width: 90%;
     max-width: 600px;
     text-align: center;
+    padding: 20px;
+}
+
+h1{
+    color: var(--cor-destaque);
 }
