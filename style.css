@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 :root{
     --cor-fundo: #01080E ; 
     --cor-principal: #0B0D20 ;
@@ -13,6 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 .caixa-principal{
