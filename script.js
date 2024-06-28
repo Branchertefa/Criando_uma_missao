@@ -7,77 +7,78 @@ const textoResultado = document.querySelector(".texto-resultado");
 const perguntas = [
     {
       enunciado:
-        "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        "Com as constantes inovações no cenário tecnológico e o agravamento dos impactos climáticos, você considera a inteligência articial uma aliada ou inimiga do meio ambiente?",
       alternativas: [
         {
-          texto: "Isso é assustador!",
+          texto: "É uma forte aliada",
           afirmacao: "afirmação",
         },
         {
-          texto: "Isso é maravilhoso!",
+          texto: "Inimiga do meio ambiente",
           afirmacao: "afirmação",
         },
       ],
     },
     {
       enunciado:
-        "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        "À medida que o anos passam, as empresas criadoras de dispositivos eletrônicos diminuem seu prazo de validade. Logo, fica o seguinte questionamento, a obsolescência programada de dispositivos de IA tem grandes impactos na geração de resíduos eletrônicos, o que, consequentemente, poderia afetar o meio ambiente?",
       alternativas: [
         {
           texto:
-            "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+            "Tal fato não causam graves impactos ambientais, visto que os novos dispositivos criados não geram um grande número de resíduos, uma vez que na fabricação do produto já há um planejamento de recursos utilizados",
           afirmacao: "afirmação",
         },
         {
           texto:
-            "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+            "A obsolescência tecnológica contribui para um volume crescente de resíduos eletrônicos que nem sempre são adequadamente reciclados, gerando graves impactos ambientais, em razão do seu logo tempo de decomposição",
           afirmacao: "afirmação",
         },
       ],
     },
     {
       enunciado:
-        "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        "Seria possível que os sistemas de IA possam colaborar para a construção de cidades inteligentes e sustentáveis de maneira acessível a todos?",
       alternativas: [
         {
           texto:
-            "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+            "Não seria acessível e poderia gerar altos custos no consumo de energia, ou seja, a experiência só se sairia bem sucedida em pouquíssimos lugares que fornecem recursos para a construção e também, se criaria uma dependência tecnológica",
           afirmacao: "afirmação",
         },
         {
           texto:
-            "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+            "Poderia ser um ótimo investimento em várias cidades, tanto em cidades pequenas que ajudaria a alavancar o crescimento, quanto para grandes cidades que enfrentam problemas ambientais urbanos, tais como poluição, ilhas de calor, inversão térmica.",
           afirmacao: "afirmação",
         },
       ],
     },
     {
       enunciado:
-        "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        "É viável realizar a proteção de espécies ameaçadas com IA que superem os impactos ambientais da infraestrutura tecnológica necessária?",
       alternativas: [
         {
           texto:
-            "Criar uma imagem utilizando uma plataforma de design como o Paint.",
+            "Seria viável, pois a proteção de espécies ameaçadas é crucial para a biodiversidade e a saúde dos ecossistemas.",
           afirmacao: "afirmação",
         },
         {
-          texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
+          texto: 
+            "Não, a infraestrutura tecnológica necessária pode ter impactos ambientais que prejudicam outros aspectos do meio ambiente.",
           afirmacao: "afirmação",
         },
       ],
     },
     {
       enunciado:
-        "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        "É possível, a partir da IA, diminuir as emissões de carbono e reverter o quadro de aquecimento global do planeta? ",
       alternativas: [
         {
           texto:
-            "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
+            "Não, uma vez que a situação está em estado crítico, na qual as chances de reverter o cenário catastrófico são baixíssimas e as IA podem até mesmo intensificar o processo.",
           afirmacao: "afirmação",
         },
         {
           texto:
-            "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
+            "Sim, ainda há esperança que as IA possam reverter o contexto exposto, propondo soluções e analisando dados, por exemplo mapear o impacto do desmatamento e calcular o derretimento de geleiras.",
           afirmacao: "afirmação",
         },
       ],
